@@ -9,4 +9,4 @@ The input layer is a Dense layer that takes, as input, a tensor of shape (batch_
 
 The chosen loss function was Categorical Cross Entropy, note that I tried multiple loss functions, including but not limited to, MSE, MAE, and cosine_similarity. All of which did not perform as well as Categorical Cross Entropy did. 
 
-Findings: The model does not generate 'perfect' images and had issues in the Fashion MNIST dataset with generating the purse image, the heel and the number one in the handwritten digits dataset. Further study will need to occur to test this model on other datasets, along with the possiblity of using a loss function that allows the output vector to more closely model the associated image. 
+Findings: The model does not generate 'perfect' images and had issues in the Fashion MNIST dataset with generating the purse image, the heel and the number one in the handwritten digits dataset. Further study will need to occur to test this model on other datasets.
